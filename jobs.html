@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>LinkedIn</title>
+</head>
+
+<body>
+    <header class="position-stick">
+        <div class="container px-0">
+            <div class="row">
+                <div class="col-lg-11">
+                    <div class="container-sm d-flex align-items-center justify-content-between w-100 mx-auto">
+                        <div>
+                            <form class="form-inline d-flex align-items-center">
+                                <div class=""><i class="bi bi-linkedin me-2"></i></div>
+                                <div class="input-group" style="height: 35px;">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text border-0 h-100" id="basic-addon1">
+                                            <span class="fa fa-search" aria-hidden="true"></span>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control border-0" placeholder="search">
+                                </div>
+                            </form>
+                        </div>
+                        <nav class="navbar navbar-end navbar-expand-lg py-0">
+                            <button class="btn btn-primary navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-lg-0 ">
+
+                                    <li class="text-center mt-2 mx-2 item">
+                                        <a class="nav-link" href="/Index.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <span class="fa fa-home px-2" aria-hidden="true"></span>
+                                                <p>Home</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2 mb-0">
+                                        <a class="nav-link" href="/network.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <span class="bi bi-people-fill px-2"></span>
+                                                <p>My Network</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2 active">
+                                        <a class="nav-link" href="/jobs.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="fa fa-shopping-bag px-2" aria-hidden="true"></i>
+                                                <p>Jobs</p>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="#">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="bi bi-chat-right-dots-fill px-2"></i>
+                                                <p>Messaging</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="#">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="bi bi-bell-fill px-2"></i>
+                                                <p>Notification</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 mx-2 text-center">
+                                        <a class="nav-link" href="#">
+                                            <span class=" d-flex d-lg-block align-items-start">
+                                                <span class="fa fa-home px-2" aria-hidden="true"></span>
+                                                <div class="d-flex align-items-center"><span>Me</span><span
+                                                        class="caret-text"></span><span
+                                                        class="bi bi-caret-down-fill"></span>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 mx-2 border-right text-center">
+                                        <a class="nav-link" href="#">
+                                            <span class=" d-flex d-lg-block align-items-start">
+                                                <span class="bi bi-grid-3x3-gap-fill  px-2"></span>
+                                                <div class="d-flex align-items-center"><span>For Business</span><span
+                                                        class="caret-text ms-1 mt-auto"></span><span
+                                                        class="bi bi-caret-down-fill"></span></div>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class=" nav-item mt-2 mx-2 border-right d-flex align-items-center">
+                                        <a class=" text-warning" href="#">
+                                            Try Premium for free
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                  </li>
+                                </ul>
+                                <form class="d-flex" role="search">
+                                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                  <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                              </div> -->
+                        </nav>
+                        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                                    <li class="text-center mt-2 mx-2 item active">
+                                        <a class="nav-link" href="/Index.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <span class="fa fa-home px-2" aria-hidden="true"></span>
+                                                <p>Home</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2 mb-0">
+                                        <a class="nav-link" href="/network.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <span class="bi bi-people-fill px-2"></span>
+                                                <p>My Network</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="/jobs.html">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="fa fa-shopping-bag px-2" aria-hidden="true"></i>
+                                                <p>Jobs</p>
+                                            </span>
+                                        </a>
+                                    </li>
+
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="#">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="bi bi-chat-right-dots-fill px-2"></i>
+                                                <p>Messaging</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="#">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="bi bi-bell-fill px-2"></i>
+                                                <p>Notification</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 text-center mx-2">
+                                        <a class="nav-link" href="#">
+                                            <span class="text-center d-flex d-lg-block align-items-start">
+                                                <i class="bi bi-bell-fill px-2"></i>
+                                                <p>Notification</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 mx-2 text-center">
+                                        <a class="nav-link" href="#">
+                                            <span class=" d-flex d-lg-block align-items-start">
+                                                <span class="fa fa-home px-2" aria-hidden="true"></span>
+                                                <div class="d-flex align-items-center"><span>Me</span><span
+                                                        class="caret-text"></span><span
+                                                        class="bi bi-caret-down-fill"></span>
+                                                </div>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="item mt-2 mx-2 border-right text-center">
+                                        <a class="nav-link" href="#">
+                                            <span class=" d-flex d-lg-block align-items-start">
+                                                <span class="bi bi-grid-3x3-gap-fill  px-2"></span>
+                                                <div class="d-flex align-items-center"><span>For Business</span><span
+                                                        class="caret-text ms-1 mt-auto"></span><span
+                                                        class="bi bi-caret-down-fill"></span></div>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class=" nav-item mt-2 mx-2 border-right d-flex align-items-center">
+                                        <a class=" text-warning" href="#">
+                                            Try Premium for free
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <section id="main-section" class="pt-3">
+        <div class="container px-0 border">
+            <div class="row">
+                <div class="col-12 col-lg-9 me-auto">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <div class="scrollable-column">
+                                <div class="container bg-white text-secondary py-3 rounded">
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <i class="fa fa-shopping-bag me-3" aria-hidden="true"></i>
+                                        <span>My jobs</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="bi bi-bell-fill me-3"></span>
+                                        <span>Job alerts</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="bi bi-file-fill me-3"></span>
+                                        <span>Demonstrate skills</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="fa fa-search me-3" aria-hidden="true"></span>
+                                        <span>Interview prep</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="bi bi-play-fill me-3"></span>
+                                        <span>Resume Builder</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="bi bi-gear-fill me-3"></span>
+                                        <span>Job seeker guidance</span>
+                                    </div>
+                                    <div class="d-flex-justify-content-start align-items-center py-3">
+                                        <span class="bi bi-bag-fill me-3"></span>
+                                        <span>Application settings</span>
+                                    </div>
+                                </div>
+                                <div class="my-3 text-center w-100 mx-auto">
+                                    <button class="btn btn-md btn-outline-primary fw-bold rounded-pill w-100 py-2">
+                                        <span class="bi bi-pen"></span>
+                                        <span>Post a free job</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="scrollable-column">
+                                <div class="container bg-white py-3 pb-2 rounded mb-3">
+                                    <div class="d-flex justify-content-between align-items-center pb-2">
+                                        <h5>Recent job searches</h5>
+                                        <p class="text-secondary pe-2">Clear</p>
+                                    </div>
+                                    <span><span>software Engineer - </span><span class="small text-primary">2
+                                            new</span></span>
+                                    <p class="text-secondary small py-0">Cameroon</p>
+                                </div>
+                                <div class="bg-white py-3 pb-2 rounded mb-3">
+                                    <div class="px-3">
+                                        <h5 class="my-0">Jobs in cameroon</h5>
+                                        <p class="text-secondary small py-1">Cameroon</p>
+                                    </div>
+                                    <div
+                                        class="d-flex px-3 border-bottom pb-3 pt-2 justify-content-between align-items-start">
+                                        <div class="pt-2">
+                                            <img src="/assets/Images/traffic-light-sign-city (2).jpg" width="60" alt="">
+                                        </div>
+                                        <div class="wrapper me-auto ms-3">
+                                            <p class="text-primary fw-bold my-0">Data Analyst</p>
+                                            <p class="my-0" style="font-weight: 500;">SIRA World</p>
+                                            <p class="text-secondary my-0">EMEA (Remote)</p>
+                                            <div class="d-flex align-items-center pt-2">
+                                                <i class="fa fa-bullseye text-success fs-4 me-1" aria-hidden="true"></i>
+                                                <small class="text-secondary">Actively recruiting</small>
+                                            </div>
+                                            <div class="d-flex align-items-center pt-3" style="font-size: 16px;">
+                                                <span class="small text-success" style="font-weight: 500;">4 hours ago
+                                                    -</span>
+                                                <span class="bi bi-linkedin mx-1" style="font-size: 16px;"></span>
+                                                <span class="text-secondary small" style="font-weight: 500;">Easy
+                                                    Apply</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center fs-3">
+                                            <span class="bi bi-hand-thumbs-up"></span>
+                                            </button>
+                                            <button class="bg-transparent border-0 ms-3">
+                                                <span class="bi bi-hand-thumbs-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex px-3 border-bottom pb-3 pt-2 justify-content-between align-items-start">
+                                        <div class="pt-2">
+                                            <img src="/assets/Images/traffic-light-sign-city (2).jpg" width="60" alt="">
+                                        </div>
+                                        <div class="wrapper me-auto ms-3">
+                                            <p class="text-primary fw-bold my-0">Data Analyst</p>
+                                            <p class="my-0" style="font-weight: 500;">SIRA World</p>
+                                            <p class="text-secondary my-0">EMEA (Remote)</p>
+                                            <div class="d-flex align-items-center pt-2">
+                                                <i class="fa fa-bullseye text-success fs-4 me-1" aria-hidden="true"></i>
+                                                <small class="text-secondary">Actively recruiting</small>
+                                            </div>
+                                            <div class="d-flex align-items-center pt-3" style="font-size: 16px;">
+                                                <span class="small text-success" style="font-weight: 500;">4 hours ago
+                                                    -</span>
+                                                <span class="bi bi-linkedin mx-1" style="font-size: 16px;"></span>
+                                                <span class="text-secondary small" style="font-weight: 500;">Easy
+                                                    Apply</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center fs-3">
+                                            <span class="bi bi-hand-thumbs-up"></span>
+                                            </button>
+                                            <button class="bg-transparent border-0 ms-3">
+                                                <span class="bi bi-hand-thumbs-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex px-3 border-bottom pb-3 pt-2 justify-content-between align-items-start">
+                                        <div class="pt-2">
+                                            <img src="/assets/Images/traffic-light-sign-city (2).jpg" width="60" alt="">
+                                        </div>
+                                        <div class="wrapper me-auto ms-3">
+                                            <p class="text-primary fw-bold my-0">Data Analyst</p>
+                                            <p class="my-0" style="font-weight: 500;">SIRA World</p>
+                                            <p class="text-secondary my-0">EMEA (Remote)</p>
+                                            <div class="d-flex align-items-center pt-2">
+                                                <i class="fa fa-bullseye text-success fs-4 me-1" aria-hidden="true"></i>
+                                                <small class="text-secondary">Actively recruiting</small>
+                                            </div>
+                                            <div class="d-flex align-items-center pt-3" style="font-size: 16px;">
+                                                <span class="small text-success" style="font-weight: 500;">4 hours ago
+                                                    -</span>
+                                                <span class="bi bi-linkedin mx-1" style="font-size: 16px;"></span>
+                                                <span class="text-secondary small" style="font-weight: 500;">Easy
+                                                    Apply</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center fs-3">
+                                            <span class="bi bi-hand-thumbs-up"></span>
+                                            </button>
+                                            <button class="bg-transparent border-0 ms-3">
+                                                <span class="bi bi-hand-thumbs-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="py-3 text-center text-secondary" style="font-weight: 500;">
+                                        <span>See all</span><span class="bi bi-arrow-right ms-1"></span>
+                                    </div>
+                                </div>
+                                <div class="bg-white py-3 pb-2 rounded">
+                                    <div class="px-3">
+                                        <h5 class="my-0">Recommended for you</h5>
+                                        <p class="text-secondary small py-1">Base on your profile and search history</p>
+                                    </div>
+                                    <div
+                                        class="d-flex px-3 border-bottom pb-3 pt-2 justify-content-between align-items-start">
+                                        <div class="pt-2">
+                                            <img src="/assets/Images/traffic-light-sign-city (2).jpg" width="60" alt="">
+                                        </div>
+                                        <div class="wrapper me-auto ms-3">
+                                            <p class="text-primary fw-bold my-0 text-uppercase">consultant techniques
+                                                (h/f)</p>
+                                            <p class="my-0" style="font-weight: 500;">Sopra Banking software</p>
+                                            <p class="text-secondary my-0">Communaute urbaine de Douala, Littoral,
+                                                Cameroon (Hybrid)</p>
+                                            <div class="d-flex align-items-center pt-2">
+                                                <i class="fa fa-bullseye text-success fs-4 me-1" aria-hidden="true"></i>
+                                                <small class="text-secondary">Actively recruiting</small>
+                                            </div>
+                                            <div class="d-flex align-items-center pt-3" style="font-size: 16px;">
+                                                <span class="small text-success" style="font-weight: 500;">4 hours
+                                                    ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center fs-3">
+                                            <span class="bi bi-hand-thumbs-up"></span>
+                                            </button>
+                                            <button class="bg-transparent border-0 ms-3">
+                                                <span class="bi bi-hand-thumbs-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="scrollable-column">
+                                <div class="bg-white rounded py-3 mb-3">
+                                    <div class="px-3">
+                                        <h5 class="my-0">Open to work</h5>
+                                        <p class="text-secondary small py-1">Recommended based on your activity</p>
+                                    </div>
+                                    <div class="px-3" style="background-color: rgba(114, 181, 207, 0.13);">
+                                        <div
+                                            class="card bg-transparent border-0 d-flex flex-row-reverse align-items-center align-items-start">
+                                            <img src="/assets/Images/Ugandan_man.jpg" alt="" height="50" width="50"
+                                                class="card-img-right rounded-circle">
+                                            <p class="card-text fw-bold" style="flex: 1;">Show recruiters you're opened
+                                                to new job opportunities</p>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pt-3">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi ad
+                                            necessitatibus minus error.</p>
+                                        <div class="text-secondary" style="font-weight: 500;">
+                                            <span>Get started</span><span class="bi bi-arrow-right ms-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-white rounded py-3 mb-3">
+                                    <div class="px-3">
+                                        <h5 class="my-0">Job seeker guidance</h5>
+                                        <p class="text-secondary small py-1">Recommended based on your activity</p>
+                                    </div>
+                                    <div class="px-3" style="background-color: rgba(114, 181, 207, 0.13);">
+                                        <div
+                                            class="card bg-transparent border-0 d-flex flex-row-reverse align-items-cent-start">
+                                            <img src="/assets/Images/Ugandan_man.jpg" alt="" height="50" width="50"
+                                                class="card-img-right rounded-circle">
+                                            <p class="card-text fw-bold" style="flex: 1;">I want to improve my resume
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="px-3 pt-3">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui eligendi ad
+                                            necessitatibus minus error.
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dolor.
+                                        </p>
+                                        <div class="text-secondary" style="font-weight: 500;">
+                                            <span>Show more</span><span class="bi bi-arrow-right ms-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="aside ms-lg-auto d-lg-block me-0 mt-3" style="max-width: 25%; position: fixed; right: 0; top: 100px;">
+        <button class="btn btn-secondary d-lg-none me-5" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><span class="bi bi-envelope"></span>
+        </button>
+        <div class="offcanvas-end offcanvas-lg" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas-lg" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="scrollable-column">
+                    <div class="py-3 bg-white rounded mb-5">
+                        <div class="d-flex justify-content-between px-2 pb-3 border-bottom">
+                            <div class="d-flex align-items-center">
+                                <div class="profile-wrap position-relative">
+                                    <div class="dot-wrap bg-success rounded-circle position-absolute"
+                                        style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                    </div>
+                                    <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                        width="40" alt="">
+                                </div>
+                                <p class="fw-bold m-auto px-2">Messaging</p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fa fa-search px-2" aria-hidden="true"></span>
+                                <span class="bi bi-people-fill px-2"></span>
+                                <i class="fa fa-shopping-bag px-2" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <div class=" px-2 form-inline w-100 position-relative pt-3">
+                            <span class="fa fa-search position-absolute" style="top: 50%; left: 15px;"
+                                aria-hidden="true"></span>
+                            <input type="text" class="form control input-md border-0 rounded-1 py-2 w-100"
+                                style="padding-inline: 30px;" placeholder="Search messages">
+                            <i class="fa fa-shopping-bag position-absolute" style="top: 50%; right: 20px;"
+                                aria-hidden="true"></i>
+                        </div>
+                        <div class="px-2 d-flex justify-content-around border-bottom">
+                            <span class="msg-focus py-2 px-0 w-50 h-100 text-center">
+                                Focused
+                            </span>
+                            <span class="py-2 px-0 w-50 h-100 text-center">
+                                Others
+                            </span>
+                        </div>
+                        <div class="card-deck">
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 pt-4 px-2">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <div class="profile-wrap position-relative">
+                                        <div class="d-flex align-items-center justify-content-center dot-wrap bg-success rounded-circle position-absolute"
+                                            style="width: 10px; height: 10px; top: 75%; left: 75%;">
+                                            <div class=" rounded-circle"
+                                                style="width: 5px; height: 5px; background-color: white;"></div>
+                                        </div>
+                                        <img src="/assets/Images/pink_man - Copy.jpg" class="rounded-circle" height="40"
+                                            width="40" alt="">
+                                    </div>
+                                    <div class="card-body border-bottom px-2 py-0">
+                                        <div class="card-title my-0">
+                                            <span class="d-flex"><span class="fw-bold">Diana Chiang</span><span
+                                                    class="text-muted small ms-auto">- Jul 29</span></span>
+                                        </div>
+                                        <div class="card-text pb-2 text-muted small">LinkedIn offer. Hi there Akombo, my
+                                            name is Diana from...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>
